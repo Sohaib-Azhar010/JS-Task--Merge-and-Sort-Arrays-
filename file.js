@@ -6,14 +6,14 @@ export default function mergeAndSort() {
     let merged = [];
     let k = 0;
 
-    // Copy elements of listONE
+    
     for (let i = 0; i < listONE.length; i++) {
         merged[k] = listONE[i];
         k++;
     }
     console.log("ListOne Elements into temporary array = " + "[" + merged + "]");
 
-    // Copy elements of listTWO
+    
     for (let i = 0; i < listTWO.length; i++) {
         merged[k] = listTWO[i];
         k++;
@@ -35,5 +35,4 @@ export default function mergeAndSort() {
     console.log("Sorted Array = " + "[" + merged + "]");
 }
 
-// Call the function immediately
 mergeAndSort();
